@@ -1,25 +1,27 @@
-// import React from 'react'
-// import 
+import React from 'react'
+import CommonHeader from '../Components/CommonHeader'; 
 
-// const Gallary = () => {
-//   return (
-//     <div className="min-h-screen bg-white">
-//       <CommonHeader 
-//         title="Amenities" 
-//         subtitle="Sagayamadha Ladies Hostel Facilities" 
-//         slugs={slugs} 
-//       />
+const Gallary = () => {
+
+    const slugs=[
+         { label: "Home", path: "/" },
+         {label:"gallary",path:"/gallary"}
+    ]
+  return (
+    <div className="min-h-screen bg-white">
+      <CommonHeader 
+        title="Gallery" 
+        subtitle="Sagayamadha Ladies Hostel Facilities"
+        slugs={slugs}
+
+        
+      />
       
     
-//       <CommonGrid 
-//         sectionTitle="AMENITIES WHICH WE PROVIDES" 
-//         sectionDesc="We provides all the required." 
-//         items={amenitiesList} 
-      
-//       />
+     
 
-//     </div>>
-//   )
-// }
+    </div>
+  )
+}
 
 export default Gallary

@@ -17,6 +17,7 @@ import Amenities from "./Amenities/Amenitiees";
 import FeaturesPage from "./Features/pages/FeaturesPage";
 import AmenitiesPage from "./Amenities/AmenitiesPage";
 import FoodMenuPage from "./FoodMenu/FoodMenuPage";
+import Gallary from './gallary/Gallary';
 
 const App = () => {
   const hostelName = "SAGAYAMADHA LADIES HOSTEL";
@@ -36,6 +37,7 @@ const App = () => {
             <AboutUs />
             <RichFeatures /> 
             <Amenities />
+            <Gallary/>
              <Location/>
           </>
         } />
@@ -45,6 +47,7 @@ const App = () => {
         <Route path="/features" element={<FeaturesPage />} />
         <Route path="/amenities" element={<AmenitiesPage />} />
         <Route path="/food" element={<FoodMenuPage />} />
+        <Route path="/gallary" element={<Gallary/>}/>
       </Routes>
       
       {}
