@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bg-[#3a2d38] text-gray-300 pt-10 pb-6 border-t-4 border-[#e91e63]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Footer 3 Column Grid */}
+    
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           
           {/* Column 1: About */}
@@ -13,12 +13,13 @@ const Footer = () => {
             <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-3">
               SAGAYAMADHA LADIES HOSTEL
             </h3>
-            <p className="text-gray-400 text-sm leading-relaxed font-light">
-              Located in the center of Trichy city. Safe, secure, and very close to all major colleges, schools, and business centres.
+            <p className="text-white-400 text-sm leading-relaxed font-light">
+              Located in the center of Trichy city. Safe, secure, and very close to all major colleges, 
+              schools, and business centres.
             </p>
           </div>
 
-          {/* Column 2: Quick Links */}
+      
           <div className="md:pl-10">
             <h3 className="text-base font-semibold text-white uppercase tracking-wider mb-3">
               Quick Links

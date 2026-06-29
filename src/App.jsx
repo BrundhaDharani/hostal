@@ -36,7 +36,7 @@ const App = () => {
             <AboutUs />
             <RichFeatures /> 
             <Amenities />
-          <Location/>
+             <Location/>
           </>
         } />
         
