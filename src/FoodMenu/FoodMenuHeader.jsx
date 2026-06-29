@@ -7,7 +7,7 @@ function FoodMenuHeader() {
 
 const slugs = [
     { label: "Home", path: "/" },          
-    // { label: "About Us", path: "/about" }, 
+    { label: "About Us", path: "/about" }, 
     { label: "FoodMENU", path: "/Foodmenu" } 
   ];
 
