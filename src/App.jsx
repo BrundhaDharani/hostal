@@ -26,7 +26,7 @@ const App = () => {
     <BrowserRouter>
       {}
       <HostelNavbar hostelName="" />
-      <Breadcrumb/>
+      <Breadcrumb paths={['Home', 'Hostel']} />
       {}
       <Routes>
 

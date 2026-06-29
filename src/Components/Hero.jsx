@@ -15,7 +15,7 @@ const Hero = () => {
         <img 
           src={images[currentIndex]} 
           alt="Background" 
-          className="w-full h-full object-cover transition-all duration-500 ease-in-out" 
+          className="w-full h-full object-cover transition-all duration-50 ease-in-out" 
         />
       </div>
 
