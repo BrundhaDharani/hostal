@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import banner1 from "../assets/banner-1.jpg";
-import banner2 from "../assets/banner-2.webp"; 
-import safeImage from "../assets/safe_image.webp"; 
+import banner1 from "../../assets/banner-1.jpg";
+import banner2 from "../../assets/banner-2.webp";
+import safeImage from "../../assets/safe_image.webp"; 
 
 const Hero = () => {
   

@@ -1,7 +1,7 @@
 
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import hostelVideo from "../assets/explore.mp4";
+import hostelVideo from "../../assets/explore.mp4";
 
 
 const AboutUs = () => {

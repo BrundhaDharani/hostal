@@ -7,7 +7,7 @@ import {
   FaBus,
   FaHospital
 } from "react-icons/fa";
-import corridorImg from "../assets/bannar3.webp";
+import corridorImg from "../../assets/bannar3.webp";
 
 
 const ScrollRevealItem = ({ children, direction = "left", delay = 0 }) => {
