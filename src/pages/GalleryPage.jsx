@@ -8,6 +8,7 @@ const Gallary = () => {
     "img 20.webp", "img1.webp", "img2.webp", "img3.webp", "img4.webp", 
     "img5.webp", "img6.webp", "img7.webp", "img8.webp", "img9.webp", 
     "img10.webp", "img11.webp", "img13.webp", "img14.webp"
+
   ];
 
     const slugs=[

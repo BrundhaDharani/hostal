@@ -36,7 +36,6 @@ const App = () => {
             <ContactBanner />
             <AboutUs />
             <RichFeatures />
-             
             <Amenities />
              <Location/>
           </>
