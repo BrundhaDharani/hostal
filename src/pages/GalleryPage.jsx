@@ -1,5 +1,5 @@
 import React from 'react'
-import CommonHeader from '../componets/Common/Header'; 
+import CommonHeader from '../componets/common/Header'; 
 
 const Gallary = () => {
 

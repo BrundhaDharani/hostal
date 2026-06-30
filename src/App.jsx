@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Breadcrumb from './componets/Common/Breadcrumb';
-import HostelNavbar from './componets/Common/Navbar';
-import Footer from './componets/Common/Footer'; 
-import Location from "./componets/Common/Location"; 
+import Breadcrumb from './componets/common/Breadcrumb';
+import HostelNavbar from './componets/common/Navbar';
+import Footer from './componets/common/Footer'; 
+import Location from "./componets/common/Location"; 
 
 import Hero from "./componets/home/Hero";
 import ContactBanner from "./componets/home/ContactBanner";

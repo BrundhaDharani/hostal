@@ -1,5 +1,5 @@
 import React from 'react';
-import CommonHeader from '../componets/Common/Header';
+import CommonHeader from '../componets/common/Header';
 import { FaCoffee, FaSun, FaCookieBite, FaMoon } from 'react-icons/fa';
 
 function FoodMenuPage() {
