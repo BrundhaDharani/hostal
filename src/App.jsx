@@ -35,7 +35,8 @@ const App = () => {
             <Hero hostelName={hostelName} />
             <ContactBanner />
             <AboutUs />
-            <RichFeatures /> 
+            <RichFeatures />
+             
             <Amenities />
              <Location/>
           </>
