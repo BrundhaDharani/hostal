@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CommonHeader from '../Common/Header'; 
+import CommonHeader from '../componets/Common/Header'; 
 // import CommonGrid from '../Common/Grid';
 
 

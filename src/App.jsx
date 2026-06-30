@@ -1,16 +1,16 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Breadcrumb from './Common/Breadcrumb';
-import HostelNavbar from './Common/Navbar';
-import Footer from './common/Footer'; 
-import Location from "./Common/Location"; 
+import Breadcrumb from './componets/Common/Breadcrumb';
+import HostelNavbar from './componets/Common/Navbar';
+import Footer from './componets/Common/Footer'; 
+import Location from "./componets/Common/Location"; 
 
-import Hero from "./home/Hero";
-import ContactBanner from "./home/ContactBanner";
-import RichFeatures from "./home/RichFeatures";
-import AboutUs from "./home/AboutUs";
-import Amenities from "./home/Amenitiees"; 
+import Hero from "./componets/home/Hero";
+import ContactBanner from "./componets/home/ContactBanner";
+import RichFeatures from "./componets/home/RichFeatures";
+import AboutUs from "./componets/home/AboutUs";
+import Amenities from "./componets/home/Amenitiees"; 
 
 import AboutPage from "./pages/AboutPage";
 import FeaturesPage from "./pages/FeaturesPage";
