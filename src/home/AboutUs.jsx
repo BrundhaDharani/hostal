@@ -1,9 +1,12 @@
 
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import hostelVideo from "../assets/explore.mp4";
 
 
 const AboutUs = () => {
+
+  const navigate = useNavigate();
 
 
   return (

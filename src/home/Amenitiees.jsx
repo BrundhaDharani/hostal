@@ -205,7 +205,7 @@ const AmenitiesPage = () => {
           <p className="text-gray-400 mt-4 text-lg md:text-xl font-light">
             We provides all the required .
           </p>
-          {/* Subtle horizontal separator line */}
+          
           <div className="w-16 h-[2.5px] bg-[#3a2d38] mx-auto mt-6"></div>
         </div>
 

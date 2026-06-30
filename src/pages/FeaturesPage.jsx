@@ -1,9 +1,8 @@
 import React from 'react';
 import { FaGraduationCap, FaBuilding, FaShieldAlt, FaBus, FaHospital, FaCheckCircle } from 'react-icons/fa';
 
-import CommonHeader from '../../Components/CommonHeader'; 
-import CommonGrid from '../../Components/CommonGrid'; 
-
+import CommonHeader from '../Common/Header'; 
+import CommonGrid from '../Common/Grid';
 
 function FeaturesPage() {
 

@@ -1,5 +1,5 @@
-import Breadcrumb from "../Components/Breadcrumb";
-import CommonHeader from "../Components/CommonHeader";
+import Breadcrumb from "../Common/Breadcrumb";
+import CommonHeader from "../Common/Header";
 
 const AboutPage = () => {
 

@@ -1,23 +1,23 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Breadcrumb from './Components/Breadcrumb';
 
-import HostelNavbar from './Components/HostelNavbar';
-import Footer from './Features/pages/Footer'; 
-import Location from "./Components/Location"; 
+import Breadcrumb from './Common/Breadcrumb';
+import HostelNavbar from './Common/Navbar';
+import Footer from './common/Footer'; 
+import Location from "./Common/Location"; 
 
-import Hero from "./Components/Hero";
-import ContactBanner from "./Components/ContactBanner";
-import RichFeatures from "./Components/RichFeatures";
+import Hero from "./home/Hero";
+import ContactBanner from "./home/ContactBanner";
+import RichFeatures from "./home/RichFeatures";
+import AboutUs from "./home/AboutUs";
+import Amenities from "./home/Amenitiees"; 
 
-
-import AboutPage from './about/Aaboutpage'; 
-import AboutUs from './about/AboutUs';
-import Amenities from "./Amenities/Amenitiees";
-import FeaturesPage from "./Features/pages/FeaturesPage";
-import AmenitiesPage from "./Amenities/AmenitiesPage";
-import FoodMenuPage from "./FoodMenu/FoodMenuPage";
-import Gallary from './gallary/Gallary';
+import AboutPage from "./pages/AboutPage";
+import FeaturesPage from "./pages/FeaturesPage";
+import AmenitiesPage from "./pages/AmenitiesPage";
+import FoodMenuPage from "./pages/FoodMenuPage";
+import ContactPage from './pages/ContactPage';
+import Gallary from './pages/GalleryPage';
 
 const App = () => {
   const hostelName = "SAGAYAMADHA LADIES HOSTEL";
@@ -37,7 +37,6 @@ const App = () => {
             <AboutUs />
             <RichFeatures /> 
             <Amenities />
-            <Gallary/>
              <Location/>
           </>
         } />
@@ -48,6 +47,8 @@ const App = () => {
         <Route path="/amenities" element={<AmenitiesPage />} />
         <Route path="/food" element={<FoodMenuPage />} />
         <Route path="/gallary" element={<Gallary/>}/>
+        <Route path="/contact" element={<ContactPage />}/>
+
       </Routes>
       
       {}

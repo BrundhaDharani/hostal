@@ -56,7 +56,7 @@ function HostelNavbar({ hostelName }) {
   
         <button onClick={()=>navigate("/gallary")}className={link}>GALLERY</button>
       
-        <a href="#contact" className={link}>CONTACT US</a>
+        <button onClick={()=>navigate("/contact")} className={link}>CONTACT US</button>
       </div>
 
     </nav>

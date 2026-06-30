@@ -4,8 +4,8 @@ import {
   FaHotTub, FaTv, FaShieldAlt, FaHome, FaBus 
 } from 'react-icons/fa';
 
-import CommonHeader from '../Components/CommonHeader'; 
-import CommonGrid from '../Components/CommonGrid'; 
+import CommonHeader from "../Common/Header"; 
+import CommonGrid from "../Common/Grid";
 
 function AmenitiesPage() {
 
