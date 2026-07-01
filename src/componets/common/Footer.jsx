@@ -4,22 +4,21 @@ const Footer = () => {
   return (
     <footer className="bg-[#3a2d38] text-gray-300 pt-10 pb-6 border-t-4 border-[#e91e63]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
-    
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mb-8 text-center sm:text-left">
+
           {/* Column 1: About */}
           <div>
-            <h3 className="text-lg font-bold text-white uppercase tracking-wider mb-3">
+            <h3 className="text-base sm:text-lg font-bold text-white uppercase tracking-wider mb-3">
               SAGAYAMADHA LADIES HOSTEL
             </h3>
-            <p className="text-white-400 text-sm leading-relaxed font-light">
-              Located in the center of Trichy city. Safe, secure, and very close to all major colleges, 
+            <p className="text-gray-400 text-sm leading-relaxed font-light">
+              Located in the center of Trichy city. Safe, secure, and very close to all major colleges,
               schools, and business centres.
             </p>
           </div>
 
-      
+          {/* Column 2: Quick Links */}
           <div className="md:pl-10">
             <h3 className="text-base font-semibold text-white uppercase tracking-wider mb-3">
               Quick Links
@@ -49,9 +48,9 @@ const Footer = () => {
               Contact Us
             </h3>
             <ul className="space-y-2 text-sm text-gray-400">
-              <li>📍 Near Chatram Bus Stand, Trichy, Tamil Nadu</li>
+              <li className="break-words">📍 Near Chatram Bus Stand, Trichy, Tamil Nadu</li>
               <li>📞 Phone: +91 9876543210</li>
-              <li>✉️ Email: info@sagayamadhahostel.com</li>
+              <li className="break-all sm:break-normal">✉️ Email: info@sagayamadhahostel.com</li>
             </ul>
           </div>
 
@@ -62,7 +61,7 @@ const Footer = () => {
           <p className="text-xs text-gray-500">
             © 2026 Sagayamadha Ladies Hostel. All Rights Reserved.
           </p>
-          <div className="flex justify-center gap-4 text-xs text-gray-500 mt-2 md:mt-0">
+          <div className="flex flex-wrap justify-center gap-4 text-xs text-gray-500 mt-3 md:mt-0">
             <a href="#" className="hover:text-[#e91e63] transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-[#e91e63] transition-colors">Terms of Service</a>
           </div>
