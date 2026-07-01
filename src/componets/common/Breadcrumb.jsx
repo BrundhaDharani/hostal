@@ -3,13 +3,18 @@ import { Link } from 'react-router-dom';
 
 const Breadcrumb = ({ slugs = [] }) => {
   return (
-    <nav className="breadcrumb-nav">
+    <nav className="breadcrumb-nav flex flex-wrap items-center gap-y-1 text-sm sm:text-base">
       {slugs?.map((slug, index) => (
-        <span key={index}>
-          <Link to={slug.path}
-          className="text-blue-600 hover:text-pink-800 font-medium transition-colors">{slug.label}</Link>
+        <span key={index} className="flex items-center">
+          <Link
+            to={slug.path}
+            className="text-blue-600 hover:text-pink-800 font-medium transition-colors whitespace-nowrap"
+          >
+            {slug.label}
+          </Link>
           {index < slugs.length - 1 && (
-            <span className="mx-2 text-slate-400 font-bold">/</span>  )}
+            <span className="mx-1.5 sm:mx-2 text-slate-400 font-bold">/</span>
+          )}
         </span>
       ))}
     </nav>
